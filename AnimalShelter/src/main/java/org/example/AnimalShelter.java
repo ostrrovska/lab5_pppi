@@ -16,5 +16,8 @@ public class AnimalShelter {
 
     public void printAnimalSound(){
         System.out.println("The animals in the shelter are: ");
+        for (Animal animal : animals){
+            animal.makeSound();
+        }
     }
 }
