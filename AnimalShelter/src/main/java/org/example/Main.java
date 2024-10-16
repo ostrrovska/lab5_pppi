@@ -10,5 +10,6 @@ public class Main {
         animalShelter.addAnimal(labrador);
         animalShelter.addAnimal(cat);
         animalShelter.printAnimalSound();//needs to be tested when all methods are implemented
+        labrador.makeSound();// Test makeSound in Labrador
     }
 }
