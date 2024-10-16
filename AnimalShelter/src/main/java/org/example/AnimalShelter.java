@@ -15,6 +15,6 @@ public class AnimalShelter {
     }
 
     public void printAnimalSound(){
-        //needs to be done by someone
+        System.out.println("The animals in the shelter are: ");
     }
 }
