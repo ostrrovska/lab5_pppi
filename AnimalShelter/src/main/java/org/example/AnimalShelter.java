@@ -11,7 +11,7 @@ public class AnimalShelter {
     }
 
     public <T extends Animal> void addAnimal(T animal) {
-        //needs to be done by someone
+        animals.add(animal);
     }
 
     public void printAnimalSound(){
