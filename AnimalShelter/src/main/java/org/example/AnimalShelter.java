@@ -15,6 +15,8 @@ public class AnimalShelter {
     }
 
     public void printAnimalSound(){
-        //needs to be done by someone
+        for (Animal animal : animals){
+            animal.makeSound();
+        }
     }
 }
